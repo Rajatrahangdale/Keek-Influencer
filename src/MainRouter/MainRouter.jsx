@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import InfluencerProfile from "../Manage/Profile/InfluencerProfile";
 
 
 const MainRouter = () => {
@@ -50,10 +51,7 @@ const MainRouter = () => {
         <Route
           path="/Profile"
           element={
-            <div className="h-screen w-screen flex items-center justify-center bg-slate-400">
-              {" "}
-              Profile
-            </div>
+            <InfluencerProfile />
           }
         />
 
